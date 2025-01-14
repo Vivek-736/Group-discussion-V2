@@ -11,7 +11,7 @@ function capitalize(str: string) {
 
 // @ts-expect-error: Binding element 'clerkUser' implicitly has an 'any' type
 const ChatForum = ({ clerkUser, slug }) => {
-  const apiKey = 'q9dvb7ynwkyx';
+  const apiKey = 'your_api_key_here';
   const userId = clerkUser.id;
   const userName = clerkUser.name;
   const userToken = clerkUser.token;
